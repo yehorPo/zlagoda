@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zladoga</title>
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="css/login.css" rel="stylesheet">
+  </head>
+  <body class="text-center" style="background-color: #F09193">
+	  <main class="form-signin">
+	  	<form>
+		  <img class="mb-4" src="images/logo.png" alt="Zlagoda logo" height="100px" title="Zlagoda">
+		  <h1 class="h3 mb-3 fw-normal">Create new user</h1>
+		  <div class="form-floating">
+    		 <input type="text" class="form-control" id="name" placeholder="Name">
+   		  </div>
+			<br>
+		   <div class="form-floating">
+    		 <input type="text" class="form-control" id="surname" placeholder="Surname">
+   		  </div>
+			<br>
+		   <div class="form-floating">
+    		 <input type="text" class="form-control" id="patronymic" placeholder="Patronymic">
+   		  </div>
+			<br>
+		   <div class="form-floating">
+    		 <input type="text" class="form-control" id="salary" placeholder="Salary">
+   		  </div>
+		    <br>
+		  <div class="form-floating">
+    		 <input type="tel" class="form-control" id="phone" placeholder="Phone number">
+   		  </div>
+			<br>
+
+		  <div class="form-floating">
+			<select class="form-control">
+				<option selected>Position...</option>
+				<option value="cashier">Cashier</option>
+				<option value="manager">Manager</option>
+			</select>
+			
+		  </div>
+<!--
+		  <h6>Positon</h6>
+		  <div class="form-floating">
+    		 <input type="radio" class="form-check-input" id="cashier" value="cashier" name="position">
+			 <label class="form-check-label" for="cashier">Cashier</label>
+   		  </div>
+		  <div class="form-floating">
+			 <input type="radio" class="form-check-input" id="manager" value="manager" name="position">
+			 <label class="form-check-label" for="manager">Manager</label>
+		  </div>
+-->
+			<hr>
+			<div class="form-floating">
+			 <h6>Date of birth</h6>
+    		 <input type="date" class="form-control" id="dateBirth">
+   		  </div>
+			<br>
+		  <div class="form-floating">
+			 <h6>Date of start</h6>
+    		 <input type="date" class="form-control" id="dateStart">
+		  </div>
+
+			<hr>
+			<h6>Address</h6>
+		  <div class="form-floating">
+    		 <input type="text" class="form-control" id="city" placeholder="City">
+   		  </div>
+			<br>
+		  <div class="form-floating">
+    		 <input type="text" class="form-control" id="street" placeholder="Street">
+   		  </div>
+			<br>
+		  <div class="form-floating">
+    		 <input type="text" class="form-control" id="zip" placeholder="Zip code">
+   		  </div>
+			<br>
+		  <button class="w-100 btn btn-lg btn-danger text-black-50" type="submit">Submit</button>
+			<hr>
+		  <a href="index.html" class="w-100 btn-sm btn-danger text-black-50">Sign in</a>
+			
+		
+		  
+		  
+		</form>
+	  </main>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
