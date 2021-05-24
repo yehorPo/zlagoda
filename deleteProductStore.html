@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -20,7 +21,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
 			<li class="nav-item active">
-              <a class="nav-link" href="deleteCategory.html">Delete category</a>
+              <a class="nav-link" href="deleteProductStore.html">Delete product in store</a>
 			  </li>
             <li class="nav-item">
               <a class="nav-link" href="manager_home.html">Home</a>
@@ -36,15 +37,32 @@
    </nav>
   </header>
    <main>
-	  <div class="container">
+     <div class="container">
 		  <br>
-		  <h1 class="text-center"><span class="badge-lg badge-pill badge-danger">Category</span></h1>
+		  <h1 class="text-center"><span class="badge-lg badge-pill badge-danger">Product</span></h1>
 		  <br>
-		  <h3>Category ID: <span id="categoryID">@categoryID@</span></h3>
+		  <h3>UPC: <span id="upc">@upc@</span></h3>
 		  <br>
-		  <h3>Name: <span id="name">@name@</span></h3>
+	   <h3>Product ID: <span id="productID">@productID@</span></h3>
 		  <br>
+		  <h3>Product name: <span id="name">@productName@</span></h3>
 		  <br>
+		  <h3>Selling price: <span id="price">@price@</span></h3>
+		  <br>
+		  <h3>Discount: <span id="dicount">@dicount@</span></h3>
+		  <br>
+		  <h3>Amount in store: <span id="amount">@amount@</span></h3>
+		  <hr>
+	   <h2><span class="badge-lg badge-pill badge-danger">Choose amount to delete</span></h2>
+		 <br>
+		  <form>
+		 	<div class="form-floating">
+   		    <input type="number" class="form-control" id="amountDelete" placeholder="Amount to delete" min="1">
+   		  </div>
+		 
+		 </form>
+		  <br>
+	   <br>
 		  <br>
 		  <br>
 		  <br>

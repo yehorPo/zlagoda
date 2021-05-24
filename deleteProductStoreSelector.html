@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,44 +20,60 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-			<li class="nav-item active">
-              <a class="nav-link" href="deleteCategory.html">Delete category</a>
-			  </li>
-            <li class="nav-item">
+		    <li class="nav-item active">
+			  <a class="nav-link" href="updateProductStoreSelector.html">Delete product in store</a>
+			</li>
+			<li class="nav-item">
               <a class="nav-link" href="manager_home.html">Home</a>
-			  </li>
+            </li>
          </ul>
           <form class="form-inline my-2 my-lg-0">
 			  <span class="badge-lg badge-pill badge-red">Logged in as:
-				  <a href="#" id="workerID"> @workerID@ </a>
+				  <a href="user.html" id="workerID"> @workerID@ </a>
 			  </span>
+<!--			  <a  href="login.html" class="btn badge-red text-white">User</a>-->
           </form>
         </div>
       </div>
    </nav>
   </header>
    <main>
-	  <div class="container">
-		  <br>
-		  <h1 class="text-center"><span class="badge-lg badge-pill badge-danger">Category</span></h1>
-		  <br>
-		  <h3>Category ID: <span id="categoryID">@categoryID@</span></h3>
-		  <br>
-		  <h3>Name: <span id="name">@name@</span></h3>
-		  <br>
-		  <br>
-		  <br>
-		  <br>
-		  <br>
-		  <br>
-		  <button class="w-100 btn btn-lg btn-danger text-white">Delete</button>
-	  </div>
+	   <br>
+	   <h1 class="text-center"><span class="badge badge-pill text-white badge-danger">Select product in store</span></h1>
+	   <br>
+	   <br>
+	   <div class="row text-center text-white">
+      <div class="col-2 col-lg-11 col-xl-2"><h3><span class="badge badge-pill badge-danger">UPC</span></h3></div>
+      <div class="col-2 col-lg-11 col-xl-2"><h3><span class="badge badge-pill badge-danger">Product name</span></h3></div>
+	  <div class="col-2 col-lg-11 col-xl-2"><h3><span class="badge badge-pill badge-danger">Selling Price</span></h3></div>
+	  <div class="col-2 col-lg-11 col-xl-2"><h3><span class="badge badge-pill badge-danger">Amount</span></h3></div>
+	  <div class="col-2 col-lg-11 col-xl-2"><h3><span class="badge badge-pill badge-danger">Discount</span></h3></div>
+	 </div>	 
+	 <div class="text-white">
+		<br>
+        <div class="card bg-danger">
+            <div class="card-header">
+				<div class="row text-center">
+				<div class="col-2 col-lg-11 col-xl-2">@categoryID@</div>
+				<div class="col-2 col-lg-11 col-xl-2">@categoryName@</div>
+			    <div class="col-2 col-lg-11 col-xl-2">@price@</div>
+				<div class="col-2 col-lg-11 col-xl-2">@amount@</div>
+				<div class="col-2 col-lg-11 col-xl-2">@discount@</div>
+				<div class="col-1 col-lg-1 text-center col-xl-1 offset-xl-1"><a href="deleteProductStore.html" class="btn badge-lg badge-pill badge-red text-white">Select</a></div>
+				</div>
+			</div>
+        </div>
+		<br>
+    </div>
    </main>
-	  <br>
-	  <br>
-	  <br>
-	  <br>
-	  <br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
    <footer class="footer mt-auto bg-danger py-1 text-white">
 			<div class="text-center offset-lg-0 col-lg-12">
             <address>
@@ -71,4 +88,13 @@
 	<script src="js/popper.min.js"></script> 
 	<script src="js/bootstrap-4.4.1.js"></script>
   </body>
+</html><!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Документ без названия</title>
+</head>
+
+<body>
+</body>
 </html>
