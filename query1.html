@@ -22,20 +22,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="managerQueries.html">Manager queries page</a>
+                            <a class="nav-link" href="query1.html">All cashiers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="manager_home.html">Manager page</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="managerQueries.html">Manager Queries</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
                         <span class="badge-lg badge-pill badge-red">Logged in as:
 				  <a href="user.html" id="workerID"> @workerID@ </a>
 			  </span>
-                        <!--			  <a  href="login.html" class="btn badge-red text-white">User</a>-->
                     </form>
                 </div>
             </div>
@@ -43,28 +39,33 @@
     </header>
     <main>
         <br>
-        <h1 class="text-center"><span class="badge badge-pill text-white badge-danger">Queries</span></h1>
+        <h1 class="text-center"><span class="badge badge-pill text-white badge-danger">Cashiers</span></h1>
         <br>
         <br>
-        <div class="text-white">
-            <div class="card bg-danger">
-                <div class="card-header">
-                    <div class="row">
-                        <div class="col-2 col-lg-11">
-                            <h2><span class="badge badge-pill text-white badge-red">Select all cashiers</span></h2>
-                        </div>
-                        <div class="col-1 col-lg-1 text-center"><a href="query1.html" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>
-                    </div>
-                </div>
+        <div class="row text-center text-white">
+            <div class="col-2 col-lg-11 col-xl-2">
+                <h3><span class="badge badge-pill badge-danger">Worker ID</span></h3>
             </div>
+            <div class="col-2 col-lg-11 col-xl-2">
+                <h3><span class="badge badge-pill badge-danger">Name</span></h3>
+            </div>
+            <div class="col-2 col-lg-11 col-xl-2">
+                <h3><span class="badge badge-pill badge-danger">Surname</span></h3>
+            </div>
+            <div class="col-2 col-lg-11 offset-xl-3 col-xl-2">
+                <h3><span class="badge badge-pill badge-danger">Salary</span></h3>
+            </div>
+        </div>
+        <div class="text-white">
             <br>
             <div class="card bg-danger">
                 <div class="card-header">
-                    <div class="row">
-                        <div class="col-2 col-lg-11">
-                            <h2><span class="badge badge-pill text-white badge-red">Products</span></h2>
-                        </div>
-                        <div class="col-1 col-lg-1 text-center"><a href="#" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>
+                    <div class="row text-center">
+                        <div class="col-2 col-lg-11 col-xl-2">@workerID@</div>
+                        <div class="col-2 col-lg-11 col-xl-2">@name@</div>
+                        <div class="col-2 col-lg-11 col-xl-2">@surname@</div>
+                        <div class="col-2 col-lg-11 col-xl-2 offset-xl-3">@Salary@</div>
+                        <div class="col-1 col-lg-1 text-center col-xl-1 offset-xl-0"><a href="user.html" class="btn badge-lg badge-pill badge-red text-white">More</a></div>
                     </div>
                 </div>
             </div>
@@ -92,6 +93,18 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.4.1.js"></script>
+</body>
+
+</html>
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Документ без названия</title>
+</head>
+
+<body>
 </body>
 
 </html>
